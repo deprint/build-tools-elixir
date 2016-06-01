@@ -1,0 +1,22 @@
+{
+  "name": "build-tools-elixir",
+  "main": "./lib/build-tools-elixir",
+  "version": "0.0.0",
+  "description": "Execute mix commands, highlight compiler errors, ExUnit",
+  "keywords": [
+    "build-tools",
+    "elixir"
+  ],
+  "repository": "https://github.com/atom/build-tools-elixir",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "build-tools.profile": {
+      "versions": {
+        "1.2.0": "provideProfiles"
+      }
+    }
+  }
+}
