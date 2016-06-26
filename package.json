@@ -12,10 +12,18 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0"
+  },
   "providedServices": {
     "build-tools.profile": {
       "versions": {
         "1.2.0": "provideProfiles"
+      }
+    },
+    "build-tools.provider": {
+      "versions": {
+        "1.0.0": "provideProvider"
       }
     }
   }
